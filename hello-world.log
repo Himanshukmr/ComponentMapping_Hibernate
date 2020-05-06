@@ -1,0 +1,26 @@
+09:17:57,107 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+09:17:57,111 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+09:17:57,112 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+09:17:57,112 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+09:17:57,112 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+09:18:42,610 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+09:18:42,615 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+09:18:42,615 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+09:18:42,615 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+09:18:42,616 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+09:35:03,343 DEBUG SQL:109 - insert into Person (billing_city, billing_street, billing_zipcode, address_city, address_street, address_zipcode, name) values (?, ?, ?, ?, ?, ?, ?)
+09:35:03,347 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Zonka]
+09:35:03,348 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Central Park]
+09:35:03,348 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [9876]
+09:35:03,348 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Seattle]
+09:35:03,348 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [200 E Main St]
+09:35:03,348 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [85123]
+09:35:03,348 TRACE BasicBinder:81 - binding parameter [7] as [VARCHAR] - [Ruby]
+09:38:16,416 DEBUG SQL:109 - insert into Person (billing_city, billing_street, billing_zipcode, address_city, address_street, address_zipcode, name) values (?, ?, ?, ?, ?, ?, ?)
+09:38:16,422 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Zonka]
+09:38:16,422 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Central Park]
+09:38:16,423 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [9876]
+09:38:16,423 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Seattle]
+09:38:16,423 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [200 E Main St]
+09:38:16,423 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [85123]
+09:38:16,424 TRACE BasicBinder:81 - binding parameter [7] as [VARCHAR] - [Ruby]
